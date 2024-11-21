@@ -39,7 +39,7 @@ const Login = () => {
         <Container h={"80vh"}>
             
             <VStack h={"full"} alignItems={"flex-start"} justifyContent="center">
-                <Heading my={6}  fontSize={"28"} textAlign={["center", "left"]}>Welcome to SkillShare</Heading>
+                <Heading my={6}  fontSize={"28"} textAlign={["center", "left"]}>Welcome to SKILLSwap</Heading>
 
                 <form style={{width: '100%'}} onSubmit={submitHandler}>
                     <Box my={"4"}>
@@ -63,7 +63,7 @@ const Login = () => {
                     </Box>
                     <Box my={"4"}>
                         
-                        <Button  type="submit" colorScheme='teal' variant='solid' >Login</Button>
+                        <Button  type="submit" colorScheme='red' variant='solid' >Login</Button>
                         
                     </Box>
                     <Box my={"4"}>

@@ -17,10 +17,10 @@ const Home = () => {
 
       <Stack direction={["column", "row"]} spacing={["16"]} justifyContent={["center", "space-around"]} alignItems={['center', 'center']}>
         <VStack alignItems={["center", "flex-end"]} padding={["20px", "20px"]} justifyContent={["center", "center"]}  >
-          <Heading className="text">LEARN FROM THE INDUSTRY EXPERTS</Heading>
-          <Text className="text">Learn Industry Ready Skills At The Most Reasonable Prices</Text>
+          <Heading className="text">Skill Swap Hub</Heading>
+          <Text className="text">Learn Industry Ready Skills</Text>
           <Link to="/courses" >
-            <Button colorScheme='teal' variant='solid' className='btn'>
+            <Button colorScheme='red' variant='solid' className='btn'>
               Explore Courses
             </Button>
           </Link>

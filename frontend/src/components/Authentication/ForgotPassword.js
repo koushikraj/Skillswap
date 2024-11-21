@@ -53,7 +53,7 @@ const ForgotPassword = () => {
               </Box>  
               <Box my={"6"}>
                 {/* <Link to={`/resetPassword/${params.token}`}> */}
-                  <Button width="100%" type="submit" isLoading={loading} colorScheme='teal' variant='solid' >Send Reset Link</Button>
+                  <Button width="100%" type="submit" isLoading={loading} colorScheme='red' variant='solid' >Send Reset Link</Button>
                 {/* </Link> */}
               </Box>
             </form>

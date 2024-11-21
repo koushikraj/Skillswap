@@ -68,7 +68,7 @@ const navigate = useNavigate();
                     
                     <Box my={"4"} css = {btn}>
                         
-                        <Button type="submit" colorScheme='teal' isLoading={loading} variant='solid'  width={"50%"} >Change</Button>
+                        <Button type="submit" colorScheme='red' isLoading={loading} variant='solid'  width={"50%"} >Change</Button>
                         
                     </Box>
 

@@ -38,7 +38,7 @@ const Navbar = ({isAuthenticated,  user}) => {
       <div className="logo-main">
         <Link to="/" className="header">
           <h1>
-            <span className="m">S</span><span>KILL</span><span className="m">S</span><span>HARE</span>
+            <span className="m">S</span><span>KILL</span><span className="m">S</span><span>WAP</span>
           </h1>
         </Link>
       </div>
@@ -51,9 +51,6 @@ const Navbar = ({isAuthenticated,  user}) => {
           </Link>
           <Link to = "/courses" className="link">
             <li>Courses</li>
-          </Link>
-          <Link to = "/about" className="link">
-            <li>About Us</li>
           </Link>
           <Link to = "/contact" className="link">
             <li>Contact Us</li>
@@ -103,25 +100,25 @@ const Navbar = ({isAuthenticated,  user}) => {
           {user && user.role === "admin" ? (
             <>
               <Link to ="/profile">
-                <Button colorScheme='teal' variant='solid' mx={"1"}>Profile</Button>
+                <Button colorScheme='red' variant='solid' mx={"1"}>Profile</Button>
               </Link>
 
 
               <Link to ="/admin/dashboard">
-                <Button colorScheme='teal' variant='solid' mx={"4"}>Dashboard</Button>
+                <Button colorScheme='red' variant='solid' mx={"4"}>Dashboard</Button>
               </Link>
             </>
           ) : (
             <>
               <Link to ="/profile">
-                <Button colorScheme='teal' variant='solid' mx={"4"}>Profile</Button>
+                <Button colorScheme='red' variant='solid' mx={"4"}>Profile</Button>
               </Link>
             
             </>
           )}
 
          
-              <Button colorScheme='teal' variant='solid' onClick= {logoutHandler}>Logout</Button>
+              <Button colorScheme='red' variant='solid' onClick= {logoutHandler}>Logout</Button>
             
             
           <ColorModeSwitcher />
@@ -131,7 +128,7 @@ const Navbar = ({isAuthenticated,  user}) => {
         <>
           <div className="section3">
             <Link to ="/login">
-              <Button colorScheme='teal' variant='solid' >Login/Signup</Button>
+              <Button colorScheme='red' variant='solid' >Login/Signup</Button>
             </Link>
             <ColorModeSwitcher />
           </div>
@@ -141,7 +138,7 @@ const Navbar = ({isAuthenticated,  user}) => {
 
       {/* <div className="section3">
         <Link to ="/login">
-          <Button colorScheme='teal' variant='solid' >Login/Signup</Button>
+          <Button colorScheme='red' variant='solid' >Login/Signup</Button>
         </Link>
         <ColorModeSwitcher />
       </div> */}
@@ -149,12 +146,12 @@ const Navbar = ({isAuthenticated,  user}) => {
           <ColorModeSwitcher style={{marginRight: "6px"}}/>
           {isAuthenticated ? (
             <>
-              <Button className="mobile-logout" colorScheme='teal' mx={"2"}  variant='solid' onClick= {logoutHandler}>Logout</Button>
+              <Button className="mobile-logout" colorScheme='red' mx={"2"}  variant='solid' onClick= {logoutHandler}>Logout</Button>
             </>
           ) : (
             <>
               {/* <Link to ="/login">
-                <Button colorScheme='teal' variant='solid' mx={"2"}>Login</Button>
+                <Button colorScheme='red' variant='solid' mx={"2"}>Login</Button>
               </Link> */}
               
             </>

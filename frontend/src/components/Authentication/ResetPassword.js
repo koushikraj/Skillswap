@@ -69,7 +69,7 @@ const ResetPassword = () => {
               </Box> 
               <Box my={"6"}>
                 
-                <Button width="100%" isLoading={loading} type="submit" colorScheme='teal' variant='solid' >Update Password</Button>
+                <Button width="100%" isLoading={loading} type="submit" colorScheme='red' variant='solid' >Update Password</Button>
                 
               </Box>
             </form>

@@ -103,7 +103,7 @@ const Profile = ({user}) => {
 
         <VStack spacing={"4"}>
           <Avatar src={user.avatar.url} size='2xl' />
-          <Button onClick={onOpen}  colorScheme='teal' variant='solid'>Change Photo</Button>
+          <Button onClick={onOpen}  colorScheme='red' variant='solid'>Change Photo</Button>
         </VStack>
 
 
@@ -128,13 +128,13 @@ const Profile = ({user}) => {
                 { user.subscription &&  user.subscription.status === "active" ? (
                   <>
 
-                    <Button  colorScheme='teal' variant='ghost' onClick= {cancelSubscriptionHandler}>Cancel Subscription</Button>
+                    <Button  colorScheme='red' variant='ghost' onClick= {cancelSubscriptionHandler}>Cancel Subscription</Button>
                   </>
                 ): (
                 
                 <>
                   <Link to='/subscribe'>
-                    <Button  colorScheme='teal' variant='ghost'>Subscribe</Button>
+                    <Button  colorScheme='red' variant='ghost'>Subscribe</Button>
                   </Link>
                 </>)}
                 
@@ -147,11 +147,11 @@ const Profile = ({user}) => {
           
           <Stack direction={['column', 'row']} spacing={"3"} alignItems="center" px={["8", "0"]} justifyContent={['center', 'center']} my={"4"}>
               <Link to='/updateprofile'>
-                <Button  colorScheme='teal' variant='solid'>Update Profile</Button>
+                <Button  colorScheme='red' variant='solid'>Update Profile</Button>
               </Link>
 
               <Link to='/changepassword'>
-                <Button  colorScheme='teal' variant='solid'>Change Password</Button>
+                <Button  colorScheme='red' variant='solid'>Change Password</Button>
               </Link>
           </Stack>
 

@@ -17,7 +17,7 @@ const Footer = () => {
           <Heading
             fontFamily={'body'}
             size="sm"
-            children="@Priyanshu Malaviya"
+            children="@Campus connect"
             color={'teal.400'}
           />
         </VStack>
@@ -28,13 +28,13 @@ const Footer = () => {
           color={'white'}
           fontSize="50"
         >
-          <a href="https://www.linkedin.com/in/priyanshumalaviya/" target={'blank'}>
+          <a href="https://www.linkedin.com/" target={'blank'}>
             <TiSocialLinkedinCircular />
           </a>
-          <a href="https://www.instagram.com/priyanshu_malaviya228/" target={'blank'}>
+          <a href="https://www.instagram.com/" target={'blank'}>
             <TiSocialInstagramCircular />
           </a>
-          <a href="https://github.com/Priyanshu9898" target={'blank'}>
+          <a href="https://github.com/" target={'blank'}>
             <DiGithub />
           </a>
         </HStack>

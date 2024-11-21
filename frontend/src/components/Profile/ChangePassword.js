@@ -79,7 +79,7 @@ const ChangePassword = () => {
                     
                     <Box my={"4"} css = {btn}>
                         
-                        <Button colorScheme='teal' isLoading={loading} type="submit" variant='solid'  width={"50%"} >Change Password</Button>
+                        <Button colorScheme='red' isLoading={loading} type="submit" variant='solid'  width={"50%"} >Change Password</Button>
                         
                     </Box>
 

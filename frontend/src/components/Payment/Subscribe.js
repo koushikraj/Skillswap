@@ -44,7 +44,7 @@ const Subscribe = ({ user }) => {
         const openPopUp = () => {
           const options = {
             key,
-            name: 'SkillShare',
+            name: 'SKILLSwap',
             description: 'Get access to all premium content',
             subscription_id: subscriptionId,
             callback_url: `${server}/verifyPayment`,
@@ -54,7 +54,7 @@ const Subscribe = ({ user }) => {
               contact: "",
             },
             notes: {
-              address: 'Priyanshu Malaviya from SkillShare',
+              address: 'campus connectfrom SKILLSwap',
             },
             theme: {
               color: '#FFC800',
@@ -95,7 +95,7 @@ const Subscribe = ({ user }) => {
                 </Box>
 
                
-                <Button  onClick={subscribeHandler} isLoading={loading}  colorScheme='teal' variant='solid' width={"80%"} >
+                <Button  onClick={subscribeHandler} isLoading={loading}  colorScheme='red' variant='solid' width={"80%"} >
                     Subscribe Now
                 </Button>
                 

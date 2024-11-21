@@ -119,7 +119,7 @@ const Register = () => {
                     
                     <Box my={"4"}>
                         
-                        <Button type="submit" colorScheme='teal' variant='solid' >Register</Button>
+                        <Button type="submit" colorScheme='red' variant='solid' >Register</Button>
                         
                     </Box>
                     <Box my={"4"}>

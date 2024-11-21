@@ -12,7 +12,7 @@ export const contact = catchAsyncError(async (req, res , next) => {
     }
 
     const to = process.env.MY_MAIL;
-    const text = "Contact from SkillShare";
+    const text = "Contact from SKILLSwap";
     const msg =  `I am ${name} and my email is${email}.\n ${message}`;
 
     await sendEmail(to, text, msg);
@@ -29,7 +29,7 @@ export const courseRequest = catchAsyncError(async (req, res , next) => {
     const {name, email ,message} = req.body;
 
     const to = process.env.MY_MAIL;
-    const text = "Course Request from SkillShare";
+    const text = "Course Request from SKILLSwap";
     const msg =  `I am ${name} and my email is${email}.\n ${message}`;
 
     await sendEmail(to, text, msg);

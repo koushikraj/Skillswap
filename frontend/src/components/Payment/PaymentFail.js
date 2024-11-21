@@ -22,7 +22,7 @@ const PaymentFail = () => {
 
 
             <Link to="/" width={"100%"}>
-                <Button colorScheme='teal' p="12px" >
+                <Button colorScheme='red' p="12px" >
                             Go to Profile
                 </Button>
             </Link>

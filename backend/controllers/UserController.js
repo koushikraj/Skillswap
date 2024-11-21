@@ -231,7 +231,7 @@ export const forgetPassword = catchAsyncError(async (req, res, next) => {
 
     const message = `Click on the Link to reset your password. ${url}. if you have not requested then please ignore.`
 
-    await sendEmail(user.email, "SkillShare Reset Password", message);
+    await sendEmail(user.email, "SKILLSwap Reset Password", message);
 
 
     res.status(200).json({
